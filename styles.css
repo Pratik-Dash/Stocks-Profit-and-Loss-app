@@ -9,6 +9,9 @@ body{
     background-color: var(--background);
     font-family: 'Caudex', serif;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     
 
 }
@@ -90,11 +93,12 @@ button:hover{
     transition: .5s;
 }
 .footer{
-    background-color: var(--accent);
-   position: fixed;
-   top: calc(100vh-40px);
+background-color: var(--accent);
    width: 100%;
-   bottom: 0;
+   min-height: 40px;
+   overflow: hidden;
+   
+
 
 }
 ul{
