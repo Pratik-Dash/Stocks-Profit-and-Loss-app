@@ -82,7 +82,7 @@ button:hover{
     font-weight: 600;
     font-size: large;
     transition: .5s;
-    margin: 2rem;
+    
 }
 .out-profit{
     display: flex;
